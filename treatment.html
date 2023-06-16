@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <!-- meta情報 -->
+  <title>タイトル</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <!-- ogp -->
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="" />
+  <meta property="og:description" content="" />
+  <!-- ファビコン -->
+  <link rel="shortcut icon" href="#" type="image/x-icon" />
+  <!-- css -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script defer src="./js/script.js"></script>
+</head>
+
+<body>
+
+  <!-- header開始 -->
+  <header class="header">
+    <div class="header__inner inner">
+
+      <h1 class="header__logo">
+        <a href="index.html">
+          <img src="./img/渡邉脳神経外科クリニック画像/common/header_logo.png" alt="脳と渡部渡邉脳神経外科クリニックという文字">
+        </a>
+      </h1>
+
+      <button class="header__hamburger hamburger js-hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="p-header__items">
+        <ul class="header-nav__items">
+
+          <div class="header-nav-item__wrapper">
+            <li class="header-nav__item">
+              <a href="about.html">
+                <p class="header-nav__text">
+                  クリニックについて
+                </p>
+              </a>
+            </li>
+
+            <li class="header-nav__item">
+              <a href="news.html">
+                <p class="header-nav__text">
+                  お知らせ
+                </p>
+              </a>
+            </li>
+
+            <li class="header-nav__item">
+              <a href="treatment.html">
+                <p class="header-nav__text">
+                  診療案内
+                </p>
+              </a>
+            </li>
+
+            <li class="header-nav__item">
+              <a href="contact.html">
+                <p class="header-nav__text">
+                  お問い合わせ
+                </p>
+              </a>
+            </li>
+
+          </div>
+        </ul>
+      </div>
+
+      <nav class="header__nav header-nav js-drawer">
+        <ul class="header-nav__items">
+
+          <div class="header-nav-item__wrapper">
+            <li class="header-nav__item">
+              <a href="about.html">
+                <p class="header-nav__text">
+                  クリニックについて
+                </p>
+              </a>
+            </li>
+
+            <li class="header-nav__item">
+              <a href="news.html">
+                <p class="header-nav__text">
+                  お知らせ
+                </p>
+              </a>
+            </li>
+
+            <li class="header-nav__item">
+              <a href="treatment.html">
+                <p class="header-nav__text">
+                  診療案内
+                </p>
+              </a>
+            </li>
+
+            <li class="header-nav__item">
+              <a href="contact.html">
+                <p class="header-nav__text">
+                  お問い合わせ
+                </p>
+              </a>
+            </li>
+          </div>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <!--treatment MV開始 -->
+  <section class="treatment-mv">
+    <div class="treatment-mv__inner">
+
+      <div class="treatment-mv__img">
+        <div class="treatment-mv-img-back__color"></div>
+      </div>
+      <div class="treatment-mv__text">
+        Treatment<br><span>診療科目</span>
+      </div>
+      <!-- パンくず開始 -->
+      <div class="pankuzu">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#">診療科目</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- treatment btn開始 -->
+  <section class="treatment-navi-btn">
+
+    <button class="treatment-btn">
+      <a href="#body-pain">
+        <div class="treatment-btn__text">
+          身体の痛み
+        </div>
+      </a>
+    </button>
+
+    <button class="treatment-btn">
+      <a href="#physical-condition">
+        <div class="treatment-btn__text">
+          身体機能の不調
+        </div>
+      </a>
+    </button>
+
+    <button class="treatment-btn">
+      <a href="#medical-checkup">
+        <div class="treatment-btn__text">
+          健診
+        </div>
+      </a>
+    </button>
+  </section>
+
+  <!-- 体の痛み開始 -->
+  <section class="body-pain" id="body-pain">
+    <div class="body-pain__inner inner">
+
+      <div class="section-title bosy-pain-title">
+        <div class="title__inner">
+          <div class="title__img">
+            <img src="./img/渡邉脳神経外科クリニック画像/common/title_icon.png" alt="">
+          </div>
+          <p class="title">
+            身体の痛み
+          </p>
+        </div>
+      </div>
+
+      <div class="body-pain__text">
+        <p>
+          ちょっとした痛みからやってくる病気も少なか<br class="sp-br">らず存在します。<br>
+          <span>少しでも異変を感じたら早期に受診しましょう。</span>
+        </p>
+      </div>
+
+      <div class="body-pain__items">
+        <div class="body-pain__item">
+          <div class="body-pain__hover">
+            <a href="treatment-headache.html">
+              <img src="./img/渡邉脳神経外科クリニック画像/treatment/treatment_eyecatch_1.jpg" alt="">
+            </a>
+          </div>
+          <p class="body-pain-item__text">
+            頭痛
+          </p>
+        </div>
+
+        <div class="body-pain__item">
+          <div class="body-pain__hover">
+            <a href="">
+              <img src="./img/渡邉脳神経外科クリニック画像/treatment/treatment_eyecatch_2.jpg" alt="">
+            </a>
+          </div>
+          <p class="body-pain-item__text">
+            首・肩の痛み
+          </p>
+        </div>
+
+        <div class="body-pain__item">
+          <div class="body-pain__hover">
+            <a href="">
+              <img src="./img/渡邉脳神経外科クリニック画像/treatment/treatment_eyecatch_3.jpg" alt="">
+            </a>
+          </div>
+          <p class="body-pain-item__text">
+            腰・臀部・足の痛み
+          </p>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 体の不調開始 -->
+  <section class="physical-condition" id="physical-condition">
+    <div class="physical-condition__inner inner">
+
+      <div class="section-title bosy-physical-condition-title">
+        <div class="title__inner">
+          <div class="title__img">
+            <img src="./img/渡邉脳神経外科クリニック画像/common/title_icon.png" alt="">
+          </div>
+          <p class="title">
+            身体機能の不調
+          </p>
+        </div>
+      </div>
+
+      <div class="physical-condition__text">
+        <p>
+          歩行障害や呂律が回らないなど、脳の病気を<br class="sp-br">疑う要注意症状です。<br>
+          <span>一刻も早く頭部CT/MRIなどの精査を行い、速<br class="sp-br">やかに原因を特定、治療を開始する必要があ<br class="sp-br">ります。</span>
+        </p>
+      </div>
+
+      <div class="physical-condition__items">
+        <div class="physical-condition__item">
+          <div class="physical-condetion__hover">
+            <a href="">
+              <img src="./img/渡邉脳神経外科クリニック画像/treatment/treatment_eyecatch_4.jpg" alt="">
+            </a>
+          </div>
+          <p class="physical-condition-item__text">
+            歩行障害
+          </p>
+        </div>
+
+        <div class="physical-condition__item">
+          <div class="physical-condetion__hover">
+            <a href="">
+              <img src="./img/渡邉脳神経外科クリニック画像/treatment/treatment_eyecatch_5.jpg" alt="">
+            </a>
+          </div>
+          <p class="physical-condition-item__text">
+            めまい・ふらつき
+          </p>
+        </div>
+
+        <div class="physical-condition__item">
+          <div class="physical-condetion__hover">
+            <a href="">
+              <img src="./img/渡邉脳神経外科クリニック画像/treatment/treatment_eyecatch_6.jpg" alt="">
+            </a>
+          </div>
+          <p class="physical-condition-item__text">
+            呂律が回らない
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 健診開始 -->
+  <section class="medical-checkup" id="medical-checkup">
+    <div class="medical-checkup__inner inner">
+
+      <div class="section-title bosy-medical-checkup-title">
+        <div class="title__inner">
+          <div class="title__img">
+            <img src="./img/渡邉脳神経外科クリニック画像/common/title_icon.png" alt="">
+          </div>
+          <p class="title">
+            健診
+          </p>
+        </div>
+      </div>
+
+      <div class="medical-checkup__text">
+        <p>
+          脳卒中は予防が第一です。早期発見・早期治療<br class="sp-br">で人生まだまだ楽しみたい！<br>
+          <span>脳の状態を知ることのできる大変貴重な機会<br class="sp-br">です。一度受診してみませんか？</span>
+        </p>
+      </div>
+
+      <div class="medical-checkup__items">
+        <div class="medical-checkup__item">
+          <div class="medical-checkup__hover">
+            <a href="">
+              <img src="./img/渡邉脳神経外科クリニック画像/treatment/treatment_eyecatch_7.jpg" alt="">
+            </a>
+          </div>
+          <p class="medical-checkup-item__text">
+            脳卒中予防
+          </p>
+        </div>
+
+        <div class="medical-checkup__item">
+          <div class="medical-checkup__hover">
+            <a href="">
+              <img src="./img/渡邉脳神経外科クリニック画像/treatment/treatment_eyecatch_8.jpg" alt="">
+            </a>
+          </div>
+          <p class="medical-checkup-item__text">
+            脳ドック
+          </p>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- フッター開始 -->
+  <section class="footer treatment-footer">
+    <div class="footer__inner inner">
+
+      <div class="footer-pc__logo">
+        <a href="">
+          <img src="./img/渡邉脳神経外科クリニック画像/common/footer_logo.png" alt="">
+        </a>
+      </div>
+
+      <div class="footer__items">
+        <div class="footer-item__text">
+          <p>
+            <a href="index.html">
+              ホーム
+            </a>
+          </p>
+          <p>
+            <a href="about.html">
+              クリニックについて
+            </a>
+          </p>
+          <p>
+            <a href="">
+              お知らせ
+            </a>
+          </p>
+          <p>
+            <a href="">
+              診療案内
+            </a>
+          </p>
+          <p>
+            <a href="">
+              お問い合わせ
+            </a>
+          </p>
+        </div>
+
+        <div class="footer-sp__logo">
+          <a href="">
+            <img src="./img/渡邉脳神経外科クリニック画像/common/footer_logo.png" alt="">
+          </a>
+        </div>
+
+
+        <div class="footer__address">
+          <p class="footer-address__text">
+            福岡県福岡市中央区渡邉123
+          </p>
+          <p class="footer-address__tel">
+            <a href="tel:093-0000-0000">Tel. 093-0000-0000</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-last__item">
+      <p>
+        ©︎2022 Watanabe neuro-spone clinic
+      </p>
+    </div>
+
+  </section>
+</body>
+
+</html>
